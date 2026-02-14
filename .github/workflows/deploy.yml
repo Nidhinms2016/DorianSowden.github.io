@@ -27,7 +27,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ./   # must include index.html and dist/
+          path: ./index.html  # must include index.html and dist/
 
   deploy:
     runs-on: ubuntu-latest
